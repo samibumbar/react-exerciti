@@ -1,0 +1,20 @@
+.container {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ad5389, #3c1053);
+  background: linear-gradient(to right, #ad5389, #3c1053);
+  max-width: 60rem;
+  max-height: 60rem;
+  border-radius: 1rem;
+  gap: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal {
+  background: #fc5c7d;
+  background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb);
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+  padding: 1rem;
+  border-radius: 1rem;
+}

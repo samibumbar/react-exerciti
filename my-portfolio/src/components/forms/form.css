@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+  background-color: bisque;
+  border-radius: 10px;
+  color: black;
+}
+.form-container input {
+  padding: 7px 40px;
+  background-color: white;
+  border: none;
+  color: black;
+  outline: none;
+  border-radius: 4px;
+}
+.message {
+  font-size: 24px;
+  color: red;
+  margin-top: 20px;
+}

@@ -1,0 +1,26 @@
+/* Stil pentru container */
+.light-toggle-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Stil pentru imaginea becului */
+.light-bulb {
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s ease; /* Tranziție lină când se schimbă imaginea */
+  filter: grayscale(100%); /* Becul este stins, alb-negru */
+}
+
+.light-bulb.on {
+  filter: grayscale(0); /* Becul este aprins, culoare normală */
+  box-shadow: 0px 0px 30px 10px yellow; /* Simulăm strălucirea */
+}
+
+/* Stil pentru buton */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
