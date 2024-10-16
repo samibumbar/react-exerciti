@@ -1,0 +1,8 @@
+{
+    "task": "My task",
+    "uid": "WanI16iqzTO1dErZq5lwkMV9qi12",
+    "dependencies": {
+        "date-fns": "^4.1.0",
+        "react-datepicker": "^7.4.0"
+    }
+}

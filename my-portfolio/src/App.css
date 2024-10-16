@@ -17,6 +17,25 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+/* Stiluri globale pentru dark mode și light mode */
+.app.light-mode {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app.dark-mode {
+  /* background-color: #222; */
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Asigură-te că textul și alte elemente se schimbă corect */
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Poți adăuga mai multe stiluri pentru Dark Mode */
 
 @keyframes logo-spin {
   from {
